@@ -6,7 +6,7 @@ class CreateEvents < ActiveRecord::Migration[6.1]
       t.string :time
       t.string :price
       t.string :attendees
-
+      t.string :date
       t.timestamps
     end
   end
