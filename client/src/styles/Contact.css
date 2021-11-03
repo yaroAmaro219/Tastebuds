@@ -1,0 +1,82 @@
+.contact-title {
+  text-transform: uppercase;
+  margin: .3px;
+}
+
+.contact-page-container {
+  padding: 99px 81px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/cheers2.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 48em;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  background-position: 20% ;
+}
+
+.form-control {
+  width: 23em !important;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  color: black;
+  padding: 0 81px;
+  background-color: white;
+  opacity: .99;
+  padding: 36px;
+  z-index: 0;
+}
+
+.sub-name {
+  margin: 9px 0px;
+  font-weight: 400;
+}
+
+.first-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.contact-name {
+  display: flex;
+}
+
+.input1 {
+  margin-right: 9px;
+}
+
+@media screen and (max-width: 850px) {
+  .contact-page-container {
+    padding: 99px 18px;
+  }
+
+  .contact1 {
+    width: unset !important;
+  }
+
+  .form-control {
+    width: 15em !important;
+  }
+}

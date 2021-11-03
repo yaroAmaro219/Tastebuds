@@ -1,0 +1,49 @@
+.about-page {
+  padding: 99px 81px;
+  margin-top: 400px;
+}
+
+.about-container {
+  background-image: url("../images/cheers2.jpg");  
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 777px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: white;
+  background-position: 50% 100%;
+}
+
+.about-content {
+  background-color: white;
+  opacity: .66;
+  padding: 18px;
+  text-align: center;
+  color: grey;
+}
+
+.about-title {
+  color: white;
+}
+
+@media screen and (max-width: 850px) {
+  .about-page {
+    padding: 509px 0px 0px 0px;
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  .about-container {
+    color: grey;
+    min-height: unset !important;
+  }
+}

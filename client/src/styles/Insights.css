@@ -1,0 +1,30 @@
+.insights-container {
+  background-image: url("../images/cheers.jpg");  
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 777px;
+  padding: 99px 18px;
+  min-height: 33em; 
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  background-position: 50% ;
+}
+
+.insights-page {
+  background-color: grey;
+  width: 100%;
+}
+
+.gallery-img {
+  width: 243px;
+  height: 243px;
+  padding: 9px;
+}
